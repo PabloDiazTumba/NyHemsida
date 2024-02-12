@@ -11,10 +11,12 @@ const Contact = () => {
   const form = useRef()
 
   useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+    const timeoutId = setTimeout(() => {
+        setLetterClass('text-animate-hover')
+    }, 3000);
+
+    return () => clearTimeout(timeoutId);
+}, []);
 
   const sendEmail = (e) => {
     e.preventDefault()
