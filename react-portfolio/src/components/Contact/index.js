@@ -87,7 +87,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Pablo Diaz
           <br />
           Serbia,
           <br />
