@@ -9,21 +9,23 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+  const nameArray = ['P', 'a', 'b', 'l', 'o']
   const jobArray = [
     'w',
     'e',
     'b',
-    ' ',
-    'd',
-    'e',
+    'b',
+    '-',
+    'U',
+    't',
     'v',
     'e',
+    'c',
+    'k',
     'l',
-    'o',
-    'p',
-    'e',
+    'a',
     'r',
+    'e',
     '.',
   ]
 
@@ -63,7 +65,7 @@ const Home = () => {
           </h1>
           <h2>Back-end developer, Pablo Diaz </h2>
           <Link to="/contact" className="flat-button">
-            CONTACT ME
+            Kontakta mig
           </Link>
         </div>
         <Logo />
