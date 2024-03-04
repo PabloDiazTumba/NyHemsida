@@ -89,8 +89,8 @@ const Contact = () => {
           <br />
           Serbia,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Stockholm <br />
+          Tumba 14740 <br />
           <br />
           <span>freelancerslobodan@gmail.com</span>
         </div>
