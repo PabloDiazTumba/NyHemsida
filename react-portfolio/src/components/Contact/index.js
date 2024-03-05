@@ -46,7 +46,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            Jag är intresserad av att lära mig mer.
+          Söker du en engagerad och målinriktad praktikant eller medarbetare? 
+          Jag är här för att bidra till ditt team! Låt oss skapa möjligheter tillsammans. 
+          Kontakta mig nedan för att diskutera hur jag kan vara en tillgång för ditt företag
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -87,18 +89,18 @@ const Contact = () => {
         <div className="info-map">
           Pablo Diaz
           <br />
-          Serbia,
+          Sverige,
           <br />
           Stockholm <br />
-          Tumba 14740 <br />
+          Tumba <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>pablodiaz147@gmail.come</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[59.19858000, 17.83317000]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[59.19858000, 17.83317000]}>
+              <Popup>Jag bor här och är tillgänglig över hela stockholm :)</Popup>
             </Marker>
           </MapContainer>
         </div>
