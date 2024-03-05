@@ -30,18 +30,25 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={['O', 'm', ' ', 'm', 'i', 'g']}
               idx={15}
             />
           </h1>
           <p>
-            Jag är är amibitös och lättlärd..... restne mste jag kjomma på
+          Hej där,
+          Jag heter Pablo Diaz Aros och jag är 38 år gammal. Jag skriver för att dela med mig av min
+          passion för både kreativitet och problemlösning och för att utforska möjligheterna inom IToch webbutveckling.
           </p>
           <p align="LEFT">
-            Varför skall dom anställa mig?
+          Från en tidig ålder har jag älskat att sitta ner och skapa, från att rita små figurer som barn till
+          att nu arbeta med teknik och lösningar. Jag trivs både med träning och med att utforska
+          världen framför datorn. Min styrka ligger i min förmåga att tänka utanför boxen för att hitta
+          nya och innovativa lösningar på olika utmaningar.
           </p>
           <p>
-            Jag vill igentligen jobba p säpo eller snuten breeeee
+          Jag ser fram emot möjligheten att tillämpa mina färdigheter och erfarenheter i en ny och
+          utmanande miljö. Att vara en del av ett team där kreativitet och innovation uppmuntras är
+          något jag ser fram emot med stor entusiasm.
           </p>
         </div>
 
